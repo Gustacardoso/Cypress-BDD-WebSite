@@ -8,7 +8,7 @@ Test Web do site [seu barriga](https://seubarriga.wcaquino.me/salvarConta)
 ## Tecnologias utilizada 👌
 
 - [Cypress-cucumber-preprocessor](https://www.npmjs.com/package/cypress-cucumber-preprocessor)
-- [Prettier] (https://prettier.io/docs/en/install.html)
+- [Prettier](https://prettier.io/docs/en/install.html)
 
 
 ## o que instalar 
