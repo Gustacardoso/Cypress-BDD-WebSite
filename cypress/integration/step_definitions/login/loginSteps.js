@@ -1,17 +1,21 @@
-import { Given, When, And, Then } from "cypress-cucumber-preprocessor/steps";
+/// <reference types="cypress" />
 
-Given('estou na tela de login', () =>{
-    cy.visit('https://seubarriga.wcaquino.me')
+
+import { Given, When, And, Then } from "cypress-cucumber-preprocessor/steps";
+import url from '../../../../cypress.json';
+
+Given('Estou na tela de login', () =>{
+    cy.visit(url.baseUrlDev);
 })
-When ('informo meu email',() =>{
+When ('Informo meu email',() =>{
      cy.get('#email').type('Chiplim@hotmail.com')
 })
-And('informo minha senha', () =>{
+And('Informo minha senha', () =>{
     cy.get('#senha').type('123456')
 })
 And('Aplico o botao de entrar', ()=>{
     cy.get('.btn').click()
 })
-Then('vejo a tela da home', ()=>{
+Then('Vejo a tela da home', ()=>{
     cy.get('.alert').contains("Bem vindo, chico")
 })
