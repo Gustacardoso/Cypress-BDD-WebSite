@@ -1,0 +1,112 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Cadastro de conta",
+    "line": 1,
+    "id": "cadastro-de-conta",
+    "tags": [],
+    "uri": "cadastroConta.feature",
+    "elements": [
+      {
+        "id": "cadastro-de-conta;adicionar-conta",
+        "keyword": "Scenario",
+        "line": 9,
+        "name": "adicionar conta",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "Estou na tela de login",
+            "result": {
+              "status": "passed",
+              "duration": 504000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "Informo meu email",
+            "result": {
+              "status": "passed",
+              "duration": 384000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "Informo minha senha",
+            "result": {
+              "status": "passed",
+              "duration": 226000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "Aplico o botao de entrar",
+            "result": {
+              "status": "passed",
+              "duration": 570000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 10,
+            "name": "Que aplico conta",
+            "result": {
+              "status": "passed",
+              "duration": 109000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 11,
+            "name": "aplicar adicionar",
+            "result": {
+              "status": "passed",
+              "duration": 291000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "informo o nome",
+            "result": {
+              "status": "passed",
+              "duration": 290000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 13,
+            "name": "Aplico o botao salvar",
+            "result": {
+              "status": "passed",
+              "duration": 304000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "mostra alerta de conta salva",
+            "result": {
+              "status": "passed",
+              "duration": 19000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

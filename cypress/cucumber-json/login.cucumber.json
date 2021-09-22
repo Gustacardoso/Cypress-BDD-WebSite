@@ -1,0 +1,72 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "login sucesso",
+    "line": 1,
+    "id": "login-sucesso",
+    "tags": [],
+    "uri": "login.feature",
+    "elements": [
+      {
+        "id": "login-sucesso;validar-login",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "validar login",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "Estou na tela de login",
+            "result": {
+              "status": "passed",
+              "duration": 7316000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "Informo meu email",
+            "result": {
+              "status": "passed",
+              "duration": 409000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "Informo minha senha",
+            "result": {
+              "status": "passed",
+              "duration": 216000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "Aplico o botao de entrar",
+            "result": {
+              "status": "passed",
+              "duration": 568000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "Vejo a tela da home",
+            "result": {
+              "status": "passed",
+              "duration": 22000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

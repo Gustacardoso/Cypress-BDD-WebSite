@@ -4,5 +4,6 @@
     "pageLoadTimeout": 10000,
     "ignoreTestFiles":["*.js","*.md"],
     
-    "baseUrlDev": "https://seubarriga.wcaquino.me"
+    "baseUrlDev": "https://seubarriga.wcaquino.me",
+    "testFiles": "**/*.{feature,features}"
 }

@@ -14,7 +14,14 @@
     "cypress-cucumber-preprocessor": "^4.2.0",
     "prettier": "^2.3.2"
   },
-  "cypress-cucumber-preprocessor":{
-    "nonGlobalStepDefinitions": true
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": false,
+    "step_definitions": "cypress/integration/step_definitions/",
+    "cucumberJson": {
+      "generate": true,
+      "outputFolder": "cypress/cucumber-json",
+      "filePrefix": "",
+      "fileSuffix": ".cucumber"
+    }
   }
 }
