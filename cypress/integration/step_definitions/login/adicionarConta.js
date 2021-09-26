@@ -10,9 +10,10 @@ Given('Que aplico conta', () =>{
 When("aplicar adicionar", () => {
     cy.get('.dropdown-menu').contains('Adicionar').click();
 })
-
+var faker = require('faker');
+var randomName = faker.name.findName();
 And("informo o nome", () =>{
-    cy.get('#nome').type('gustavo2');
+    cy.get('#nome').type(randomName);
 })
 
 And("Aplico o botao salvar", ()=>{

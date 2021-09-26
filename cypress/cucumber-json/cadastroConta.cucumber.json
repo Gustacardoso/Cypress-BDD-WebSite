@@ -22,7 +22,7 @@
             "name": "Estou na tela de login",
             "result": {
               "status": "passed",
-              "duration": 7172000000
+              "duration": 8210000000
             }
           },
           {
@@ -32,7 +32,7 @@
             "name": "Informo meu email",
             "result": {
               "status": "passed",
-              "duration": 415000000
+              "duration": 417000000
             }
           },
           {
@@ -52,7 +52,7 @@
             "name": "Aplico o botao de entrar",
             "result": {
               "status": "passed",
-              "duration": 534000000
+              "duration": 576000000
             }
           },
           {
@@ -72,7 +72,7 @@
             "name": "aplicar adicionar",
             "result": {
               "status": "passed",
-              "duration": 280000000
+              "duration": 276000000
             }
           },
           {
@@ -82,7 +82,7 @@
             "name": "informo o nome",
             "result": {
               "status": "passed",
-              "duration": 291000000
+              "duration": 295000000
             }
           },
           {
@@ -92,7 +92,7 @@
             "name": "Aplico o botao salvar",
             "result": {
               "status": "passed",
-              "duration": 309000000
+              "duration": 372000000
             }
           },
           {
@@ -101,9 +101,8 @@
             "line": 14,
             "name": "mostra alerta de conta salva",
             "result": {
-              "status": "failed",
-              "duration": 5029000000,
-              "error_message": "AssertionError: Timed out retrying after 5000ms: expected '<div.alert.alert-danger>' to contain 'Conta adicionada com sucesso!'\n    at Context.eval (https://seubarriga.wcaquino.me/__cypress/tests?p=cypress\\integration\\specs\\cadastroConta.feature:65:20)\n    at Context.resolveAndRunStepDefinition (https://seubarriga.wcaquino.me/__cypress/tests?p=cypress\\integration\\specs\\cadastroConta.feature:10542:29)\n    at Context.eval (https://seubarriga.wcaquino.me/__cypress/tests?p=cypress\\integration\\specs\\cadastroConta.feature:9863:35)"
+              "status": "passed",
+              "duration": 19000000
             }
           }
         ]
@@ -123,7 +122,7 @@
             "name": "Estou na tela de login",
             "result": {
               "status": "passed",
-              "duration": 2209000000
+              "duration": 452000000
             }
           },
           {
@@ -133,7 +132,7 @@
             "name": "Informo meu email",
             "result": {
               "status": "passed",
-              "duration": 403000000
+              "duration": 405000000
             }
           },
           {
@@ -143,7 +142,7 @@
             "name": "Informo minha senha",
             "result": {
               "status": "passed",
-              "duration": 234000000
+              "duration": 233000000
             }
           },
           {
@@ -153,7 +152,7 @@
             "name": "Aplico o botao de entrar",
             "result": {
               "status": "passed",
-              "duration": 563000000
+              "duration": 501000000
             }
           },
           {
@@ -163,7 +162,7 @@
             "name": "Que aplico conta",
             "result": {
               "status": "passed",
-              "duration": 120000000
+              "duration": 91000000
             }
           },
           {
@@ -173,7 +172,7 @@
             "name": "aplicar listar",
             "result": {
               "status": "passed",
-              "duration": 339000000
+              "duration": 293000000
             }
           },
           {
@@ -183,7 +182,7 @@
             "name": "Lista informada",
             "result": {
               "status": "passed",
-              "duration": 21000000
+              "duration": 6000000
             }
           }
         ]
