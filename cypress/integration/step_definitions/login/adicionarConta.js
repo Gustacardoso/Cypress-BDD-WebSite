@@ -21,3 +21,10 @@ And("Aplico o botao salvar", ()=>{
 Then("mostra alerta de conta salva", ()=>{
     cy.get(".alert").should("contain","Conta adicionada com sucesso!");
 })
+
+When("aplicar listar", ()=>{
+    cy.get('.dropdown-menu').contains('Listar').click();
+})
+Then("Lista informada",()=>{
+    cy.get("#tabelaContas").should("contain","Conta");
+})

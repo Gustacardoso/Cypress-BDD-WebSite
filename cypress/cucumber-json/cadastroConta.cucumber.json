@@ -22,7 +22,7 @@
             "name": "Estou na tela de login",
             "result": {
               "status": "passed",
-              "duration": 504000000
+              "duration": 7172000000
             }
           },
           {
@@ -32,7 +32,7 @@
             "name": "Informo meu email",
             "result": {
               "status": "passed",
-              "duration": 384000000
+              "duration": 415000000
             }
           },
           {
@@ -42,7 +42,7 @@
             "name": "Informo minha senha",
             "result": {
               "status": "passed",
-              "duration": 226000000
+              "duration": 232000000
             }
           },
           {
@@ -52,7 +52,7 @@
             "name": "Aplico o botao de entrar",
             "result": {
               "status": "passed",
-              "duration": 570000000
+              "duration": 534000000
             }
           },
           {
@@ -62,7 +62,7 @@
             "name": "Que aplico conta",
             "result": {
               "status": "passed",
-              "duration": 109000000
+              "duration": 104000000
             }
           },
           {
@@ -72,7 +72,7 @@
             "name": "aplicar adicionar",
             "result": {
               "status": "passed",
-              "duration": 291000000
+              "duration": 280000000
             }
           },
           {
@@ -82,7 +82,7 @@
             "name": "informo o nome",
             "result": {
               "status": "passed",
-              "duration": 290000000
+              "duration": 291000000
             }
           },
           {
@@ -92,7 +92,7 @@
             "name": "Aplico o botao salvar",
             "result": {
               "status": "passed",
-              "duration": 304000000
+              "duration": 309000000
             }
           },
           {
@@ -101,8 +101,89 @@
             "line": 14,
             "name": "mostra alerta de conta salva",
             "result": {
+              "status": "failed",
+              "duration": 5029000000,
+              "error_message": "AssertionError: Timed out retrying after 5000ms: expected '<div.alert.alert-danger>' to contain 'Conta adicionada com sucesso!'\n    at Context.eval (https://seubarriga.wcaquino.me/__cypress/tests?p=cypress\\integration\\specs\\cadastroConta.feature:65:20)\n    at Context.resolveAndRunStepDefinition (https://seubarriga.wcaquino.me/__cypress/tests?p=cypress\\integration\\specs\\cadastroConta.feature:10542:29)\n    at Context.eval (https://seubarriga.wcaquino.me/__cypress/tests?p=cypress\\integration\\specs\\cadastroConta.feature:9863:35)"
+            }
+          }
+        ]
+      },
+      {
+        "id": "cadastro-de-conta;listar-conta",
+        "keyword": "Scenario",
+        "line": 16,
+        "name": "Listar conta",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "Estou na tela de login",
+            "result": {
               "status": "passed",
-              "duration": 19000000
+              "duration": 2209000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "Informo meu email",
+            "result": {
+              "status": "passed",
+              "duration": 403000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "Informo minha senha",
+            "result": {
+              "status": "passed",
+              "duration": 234000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "Aplico o botao de entrar",
+            "result": {
+              "status": "passed",
+              "duration": 563000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 17,
+            "name": "Que aplico conta",
+            "result": {
+              "status": "passed",
+              "duration": 120000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 18,
+            "name": "aplicar listar",
+            "result": {
+              "status": "passed",
+              "duration": 339000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 19,
+            "name": "Lista informada",
+            "result": {
+              "status": "passed",
+              "duration": 21000000
             }
           }
         ]

@@ -12,3 +12,8 @@ Scenario: adicionar conta
     And informo o nome
     And Aplico o botao salvar
     Then mostra alerta de conta salva
+
+Scenario: Listar conta
+Given Que aplico conta
+When aplicar listar
+Then Lista informada
