@@ -22,7 +22,7 @@
             "name": "Estou na tela de login",
             "result": {
               "status": "passed",
-              "duration": 8210000000
+              "duration": 495000000
             }
           },
           {
@@ -32,7 +32,7 @@
             "name": "Informo meu email",
             "result": {
               "status": "passed",
-              "duration": 417000000
+              "duration": 382000000
             }
           },
           {
@@ -42,7 +42,7 @@
             "name": "Informo minha senha",
             "result": {
               "status": "passed",
-              "duration": 232000000
+              "duration": 234000000
             }
           },
           {
@@ -52,7 +52,7 @@
             "name": "Aplico o botao de entrar",
             "result": {
               "status": "passed",
-              "duration": 576000000
+              "duration": 591000000
             }
           },
           {
@@ -62,7 +62,7 @@
             "name": "Que aplico conta",
             "result": {
               "status": "passed",
-              "duration": 104000000
+              "duration": 92000000
             }
           },
           {
@@ -72,7 +72,7 @@
             "name": "aplicar adicionar",
             "result": {
               "status": "passed",
-              "duration": 276000000
+              "duration": 275000000
             }
           },
           {
@@ -82,7 +82,7 @@
             "name": "informo o nome",
             "result": {
               "status": "passed",
-              "duration": 295000000
+              "duration": 291000000
             }
           },
           {
@@ -92,7 +92,7 @@
             "name": "Aplico o botao salvar",
             "result": {
               "status": "passed",
-              "duration": 372000000
+              "duration": 321000000
             }
           },
           {
@@ -102,7 +102,7 @@
             "name": "mostra alerta de conta salva",
             "result": {
               "status": "passed",
-              "duration": 19000000
+              "duration": 5000000
             }
           }
         ]
@@ -122,7 +122,7 @@
             "name": "Estou na tela de login",
             "result": {
               "status": "passed",
-              "duration": 452000000
+              "duration": 448000000
             }
           },
           {
@@ -132,7 +132,7 @@
             "name": "Informo meu email",
             "result": {
               "status": "passed",
-              "duration": 405000000
+              "duration": 377000000
             }
           },
           {
@@ -142,7 +142,7 @@
             "name": "Informo minha senha",
             "result": {
               "status": "passed",
-              "duration": 233000000
+              "duration": 239000000
             }
           },
           {
@@ -152,7 +152,7 @@
             "name": "Aplico o botao de entrar",
             "result": {
               "status": "passed",
-              "duration": 501000000
+              "duration": 543000000
             }
           },
           {
@@ -162,7 +162,7 @@
             "name": "Que aplico conta",
             "result": {
               "status": "passed",
-              "duration": 91000000
+              "duration": 92000000
             }
           },
           {
@@ -172,7 +172,7 @@
             "name": "aplicar listar",
             "result": {
               "status": "passed",
-              "duration": 293000000
+              "duration": 265000000
             }
           },
           {
@@ -182,7 +182,127 @@
             "name": "Lista informada",
             "result": {
               "status": "passed",
-              "duration": 6000000
+              "duration": 4000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "cadastro-de-conta;editar-conta",
+        "keyword": "Scenario",
+        "line": 22,
+        "name": "Editar conta",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "Estou na tela de login",
+            "result": {
+              "status": "passed",
+              "duration": 400000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "Informo meu email",
+            "result": {
+              "status": "passed",
+              "duration": 396000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "Informo minha senha",
+            "result": {
+              "status": "passed",
+              "duration": 223000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "Aplico o botao de entrar",
+            "result": {
+              "status": "passed",
+              "duration": 549000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 23,
+            "name": "Que aplico conta",
+            "result": {
+              "status": "passed",
+              "duration": 85000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 24,
+            "name": "aplicar listar",
+            "result": {
+              "status": "passed",
+              "duration": 271000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 25,
+            "name": "aplicar editar conta",
+            "result": {
+              "status": "passed",
+              "duration": 282000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 26,
+            "name": "Editando conta",
+            "result": {
+              "status": "passed",
+              "duration": 347000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 27,
+            "name": "Aplico o botao salvar",
+            "result": {
+              "status": "passed",
+              "duration": 271000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 28,
+            "name": "Conta alterada com sucesso",
+            "result": {
+              "status": "passed",
+              "duration": 5000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 29,
+            "name": "Lista informada",
+            "result": {
+              "status": "passed",
+              "duration": 4000000
             }
           }
         ]

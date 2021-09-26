@@ -3,6 +3,7 @@
 
 import { Given, When, And, Then } from "cypress-cucumber-preprocessor/steps";
 
+
 Given('Que aplico conta', () =>{
     cy.get('[data-toggle=dropdown').click();
 })
@@ -28,4 +29,15 @@ When("aplicar listar", ()=>{
 })
 Then("Lista informada",()=>{
     cy.get("#tabelaContas").should("contain","Conta");
+})
+And("aplicar editar conta",()=>{
+    cy.get("[href='/editarConta?id=820325'] > .glyphicon").click();
+})
+var nomealeterado = faker.name.findName();
+And("Editando conta",()=>{
+    cy.get("#nome").clear();
+    cy.get("#nome").type(nomealeterado);
+})
+Then("Conta alterada com sucesso",()=>{
+    cy.get(".alert").should("contain","Conta alterada com sucesso!");
 })

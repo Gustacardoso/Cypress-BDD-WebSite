@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "cypress:open": "cypress open",
-    "cypress:tests": "cypress run"
+    "cy:open": "cypress open",
+    "cy:tests": "cypress run"
   },
   "author": "",
   "license": "ISC",

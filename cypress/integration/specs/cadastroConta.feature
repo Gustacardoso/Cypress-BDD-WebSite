@@ -14,6 +14,16 @@ Scenario: adicionar conta
     Then mostra alerta de conta salva
 
 Scenario: Listar conta
-Given Que aplico conta
-When aplicar listar
-Then Lista informada
+    Given Que aplico conta
+    When aplicar listar
+    Then Lista informada
+
+
+Scenario: Editar conta
+    Given Que aplico conta
+    When aplicar listar
+    And aplicar editar conta
+    And Editando conta
+     And Aplico o botao salvar
+    Then Conta alterada com sucesso
+    Then Lista informada
