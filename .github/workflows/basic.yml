@@ -16,7 +16,7 @@ jobs:
         uses: cypress-io/github-action@v2
         with:
           # Specify Browser since container image is compile with Firefox
-          browser: firefox
+          browser: chrome
       - name: Post the link to the report
         if: always()
         uses: Sibz/github-status-action@v1
