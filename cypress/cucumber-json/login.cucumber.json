@@ -22,7 +22,7 @@
             "name": "Estou na tela de login",
             "result": {
               "status": "passed",
-              "duration": 756000000
+              "duration": 775000000
             }
           },
           {
@@ -32,7 +32,7 @@
             "name": "Informo meu email",
             "result": {
               "status": "passed",
-              "duration": 407000000
+              "duration": 406000000
             }
           },
           {
@@ -42,7 +42,7 @@
             "name": "Informo minha senha",
             "result": {
               "status": "passed",
-              "duration": 227000000
+              "duration": 247000000
             }
           },
           {
@@ -52,7 +52,7 @@
             "name": "Aplico o botao de entrar",
             "result": {
               "status": "passed",
-              "duration": 658000000
+              "duration": 617000000
             }
           },
           {
@@ -62,7 +62,7 @@
             "name": "Vejo a tela da home",
             "result": {
               "status": "passed",
-              "duration": 21000000
+              "duration": 17000000
             }
           }
         ]
