@@ -21,3 +21,4 @@ npm install cypress cypress-cucumber-preprocessor
 prettier 
 npm install prettier 
 
+# cypress
