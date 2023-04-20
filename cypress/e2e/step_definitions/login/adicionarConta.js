@@ -3,7 +3,7 @@
 
 import { Given, When, And, Then } from "cypress-cucumber-preprocessor/steps";
 import * as cadastro from "../../../support/cadastroFunction"
-
+import * as login from "../../../support/loginFunction"
 Given('Que aplico conta', () =>{
     cadastro.aplica_conta()
 })
@@ -13,32 +13,30 @@ When("aplicar adicionar", () => {
 })
 
 And("informo o nome", () =>{
-    cy.get('#nome').type(randomName);
+    cadastro.nome_random()
 })
 
 And("Aplico o botao salvar", ()=>{
-    cy.get('.btn').contains('Salvar').click();
+   cadastro.contain_salvar()
+   login.bt_entrada()
 })
-Then("mostra alerta de conta salva", ()=>{
-    cy.get(".alert").should("contain","Conta adicionada com sucesso!");
+Then("mostra alerta de conta salva {string}", (texto)=>{
+    login.alert_sucesso(texto)
 })
 
 When("aplicar listar", ()=>{
-    cy.get('.dropdown-menu').contains('Listar').click();
+    cadastro.menu_listar()
 })
 Then("Lista informada",()=>{
-    cy.get("#tabelaContas").should("contain","Conta");
+    cadastro.tabelas_contas()
 })
 And("aplicar editar conta",()=>{
-    cy.get("[href='/editarConta?id=820325'] > .glyphicon").click();
+    cadastro.aplicar_editar_conta()
 })
-var faker = require('faker');
-var randomName = faker.name.findName();
-var nomealeterado = faker.name.findName();
+
 And("Editando conta",()=>{
-    cy.get("#nome").clear();
-    cy.get("#nome").type(nomealeterado);
+   cadastro.editar_conta()
 })
-Then("Conta alterada com sucesso",()=>{
-    cy.get(".alert").should("contain","Conta alterada com sucesso!");
+Then("Conta alterada com sucesso {string}",(texto)=>{
+    login.alert_editar(texto)
 })

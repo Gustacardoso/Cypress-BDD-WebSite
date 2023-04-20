@@ -22,7 +22,7 @@
             "name": "Estou na tela de login",
             "result": {
               "status": "passed",
-              "duration": 389000000
+              "duration": 1320000000
             }
           },
           {
@@ -32,7 +32,7 @@
             "name": "Informo meu email \"Chiplim@hotmail.com\"",
             "result": {
               "status": "passed",
-              "duration": 388000000
+              "duration": 469000000
             }
           },
           {
@@ -42,7 +42,7 @@
             "name": "Informo minha senha \"123456\"",
             "result": {
               "status": "passed",
-              "duration": 233000000
+              "duration": 283000000
             }
           },
           {
@@ -52,7 +52,7 @@
             "name": "Aplico o botao de entrar",
             "result": {
               "status": "passed",
-              "duration": 568000000
+              "duration": 626000000
             }
           },
           {
@@ -62,7 +62,7 @@
             "name": "Que aplico conta",
             "result": {
               "status": "passed",
-              "duration": 100000000
+              "duration": 154000000
             }
           },
           {
@@ -72,7 +72,7 @@
             "name": "aplicar adicionar",
             "result": {
               "status": "passed",
-              "duration": 255000000
+              "duration": 373000000
             }
           },
           {
@@ -82,7 +82,7 @@
             "name": "informo o nome",
             "result": {
               "status": "passed",
-              "duration": 383000000
+              "duration": 537000000
             }
           },
           {
@@ -92,17 +92,17 @@
             "name": "Aplico o botao salvar",
             "result": {
               "status": "passed",
-              "duration": 326000000
+              "duration": 380000000
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
             "line": 14,
-            "name": "mostra alerta de conta salva",
+            "name": "mostra alerta de conta salva \"Conta adicionada com sucesso!\"",
             "result": {
               "status": "passed",
-              "duration": 13000000
+              "duration": 17000000
             }
           }
         ]
@@ -122,7 +122,7 @@
             "name": "Estou na tela de login",
             "result": {
               "status": "passed",
-              "duration": 270000000
+              "duration": 288000000
             }
           },
           {
@@ -132,7 +132,7 @@
             "name": "Informo meu email \"Chiplim@hotmail.com\"",
             "result": {
               "status": "passed",
-              "duration": 376000000
+              "duration": 396000000
             }
           },
           {
@@ -142,7 +142,7 @@
             "name": "Informo minha senha \"123456\"",
             "result": {
               "status": "passed",
-              "duration": 217000000
+              "duration": 251000000
             }
           },
           {
@@ -152,7 +152,7 @@
             "name": "Aplico o botao de entrar",
             "result": {
               "status": "passed",
-              "duration": 536000000
+              "duration": 605000000
             }
           },
           {
@@ -162,7 +162,7 @@
             "name": "Que aplico conta",
             "result": {
               "status": "passed",
-              "duration": 94000000
+              "duration": 106000000
             }
           },
           {
@@ -172,7 +172,7 @@
             "name": "aplicar listar",
             "result": {
               "status": "passed",
-              "duration": 250000000
+              "duration": 342000000
             }
           },
           {
@@ -182,7 +182,7 @@
             "name": "Lista informada",
             "result": {
               "status": "passed",
-              "duration": 8000000
+              "duration": 19000000
             }
           }
         ]
@@ -202,7 +202,7 @@
             "name": "Estou na tela de login",
             "result": {
               "status": "passed",
-              "duration": 280000000
+              "duration": 417000000
             }
           },
           {
@@ -212,7 +212,7 @@
             "name": "Informo meu email \"Chiplim@hotmail.com\"",
             "result": {
               "status": "passed",
-              "duration": 448000000
+              "duration": 459000000
             }
           },
           {
@@ -222,7 +222,7 @@
             "name": "Informo minha senha \"123456\"",
             "result": {
               "status": "passed",
-              "duration": 263000000
+              "duration": 294000000
             }
           },
           {
@@ -232,7 +232,7 @@
             "name": "Aplico o botao de entrar",
             "result": {
               "status": "passed",
-              "duration": 552000000
+              "duration": 650000000
             }
           },
           {
@@ -242,7 +242,7 @@
             "name": "Que aplico conta",
             "result": {
               "status": "passed",
-              "duration": 97000000
+              "duration": 107000000
             }
           },
           {
@@ -252,7 +252,7 @@
             "name": "aplicar listar",
             "result": {
               "status": "passed",
-              "duration": 292000000
+              "duration": 330000000
             }
           },
           {
@@ -262,7 +262,7 @@
             "name": "aplicar editar conta",
             "result": {
               "status": "passed",
-              "duration": 288000000
+              "duration": 308000000
             }
           },
           {
@@ -272,7 +272,7 @@
             "name": "Editando conta",
             "result": {
               "status": "passed",
-              "duration": 429000000
+              "duration": 605000000
             }
           },
           {
@@ -282,17 +282,17 @@
             "name": "Aplico o botao salvar",
             "result": {
               "status": "passed",
-              "duration": 313000000
+              "duration": 398000000
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
             "line": 28,
-            "name": "Conta alterada com sucesso",
+            "name": "Conta alterada com sucesso \"Conta alterada com sucesso!\"",
             "result": {
-              "status": "passed",
-              "duration": 6000000
+              "status": "failed",
+              "error_message": "AssertionError: Timed out retrying after 5000ms: expected '<div.alert.alert-danger>' to contain 'Conta alterada com sucesso!'\n    at Object.alert_editar (https://seubarriga.wcaquino.me/__cypress/tests?p=cypress\\e2e\\specs\\cadastroConta.feature:236:48)\n    at Context.eval (https://seubarriga.wcaquino.me/__cypress/tests?p=cypress\\e2e\\specs\\cadastroConta.feature:80:9)\n    at Context.resolveAndRunStepDefinition (https://seubarriga.wcaquino.me/__cypress/tests?p=cypress\\e2e\\specs\\cadastroConta.feature:10677:29)\n    at Context.eval (https://seubarriga.wcaquino.me/__cypress/tests?p=cypress\\e2e\\specs\\cadastroConta.feature:9998:35)"
             }
           },
           {
@@ -301,8 +301,7 @@
             "line": 29,
             "name": "Lista informada",
             "result": {
-              "status": "passed",
-              "duration": 10000000
+              "status": "skipped"
             }
           }
         ]

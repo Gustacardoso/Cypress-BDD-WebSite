@@ -10,5 +10,8 @@ export function bt_entrada (){
     cy.get(loc.LOGIN.btn_login).click()
 }
 export function alert_sucesso(texto){
-    cy.get(loc.LOGIN.alert).contains(texto)
+    cy.get(loc.LOGIN.alert).should('contain', texto)
+}
+export function alert_editar(texto){
+    cy.get(loc.LOGIN.alert).should('contain', texto)
 }

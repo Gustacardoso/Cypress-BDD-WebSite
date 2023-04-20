@@ -11,7 +11,7 @@ Scenario: adicionar conta
     When  aplicar adicionar
     And informo o nome
     And Aplico o botao salvar
-    Then mostra alerta de conta salva
+    Then mostra alerta de conta salva "Conta adicionada com sucesso!"
 
 Scenario: Listar conta
     Given Que aplico conta
@@ -24,6 +24,6 @@ Scenario: Editar conta
     When aplicar listar
     And aplicar editar conta
     And Editando conta
-     And Aplico o botao salvar
-    Then Conta alterada com sucesso
+    And Aplico o botao salvar
+    Then Conta alterada com sucesso "Conta alterada com sucesso!"
     Then Lista informada
