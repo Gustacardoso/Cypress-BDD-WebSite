@@ -21,26 +21,28 @@
             "line": 4,
             "name": "Estou na tela de login",
             "result": {
-              "status": "undefined",
-              "duration": 34000000
+              "status": "passed",
+              "duration": 322000000
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
             "line": 5,
-            "name": "Informo meu email",
+            "name": "Informo meu email \"Chiplim@hotmail.com\"",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 408000000
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
             "line": 6,
-            "name": "Informo minha senha",
+            "name": "Informo minha senha \"123456\"",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 237000000
             }
           },
           {
@@ -49,16 +51,18 @@
             "line": 7,
             "name": "Aplico o botao de entrar",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 668000000
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
             "line": 8,
-            "name": "Vejo a tela da home",
+            "name": "Vejo a tela da home \"Bem vindo, chico\"",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 35000000
             }
           }
         ]

@@ -2,20 +2,20 @@
 
 
 import { Given, When, And, Then } from "cypress-cucumber-preprocessor/steps";
-
+import * as login from "../../../support/loginFunction"
 
 Given('Estou na tela de login', () =>{
-    cy.visit('https://seubarriga.wcaquino.me/login');
+    cy.visit('/login');
 })
-When ('Informo meu email',() =>{
-     cy.get('#email').type('Chiplim@hotmail.com')
+When ('Informo meu email {string}',(email) =>{
+    login.Edt_email(email)
 })
-And('Informo minha senha', () =>{
-    cy.get('#senha').type('123456')
+And('Informo minha senha {string}', (password) =>{
+    login.Edt_password(password)
 })
 And('Aplico o botao de entrar', ()=>{
-    cy.get('.btn').click()
+    login.bt_entrada()
 })
-Then('Vejo a tela da home', ()=>{
-    cy.get('.alert').contains("Bem vindo, chico")
+Then('Vejo a tela da home {string}', (texto)=>{
+    login.alert_sucesso(texto)
 })
