@@ -2,17 +2,16 @@
 
 
 import { Given, When, And, Then } from "cypress-cucumber-preprocessor/steps";
-
+import * as cadastro from "../../../support/cadastroFunction"
 
 Given('Que aplico conta', () =>{
-    cy.get('[data-toggle=dropdown').click();
+    cadastro.aplica_conta()
 })
 
 When("aplicar adicionar", () => {
-    cy.get('.dropdown-menu').contains('Adicionar').click();
+    cadastro.Adicionar_conta()
 })
-var faker = require('faker');
-var randomName = faker.name.findName();
+
 And("informo o nome", () =>{
     cy.get('#nome').type(randomName);
 })
@@ -33,6 +32,8 @@ Then("Lista informada",()=>{
 And("aplicar editar conta",()=>{
     cy.get("[href='/editarConta?id=820325'] > .glyphicon").click();
 })
+var faker = require('faker');
+var randomName = faker.name.findName();
 var nomealeterado = faker.name.findName();
 And("Editando conta",()=>{
     cy.get("#nome").clear();
