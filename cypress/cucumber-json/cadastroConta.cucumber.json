@@ -22,7 +22,7 @@
             "name": "Estou na tela de login",
             "result": {
               "status": "passed",
-              "duration": 4496000000
+              "duration": 386000000
             }
           },
           {
@@ -32,7 +32,7 @@
             "name": "Informo meu email",
             "result": {
               "status": "passed",
-              "duration": 453000000
+              "duration": 398000000
             }
           },
           {
@@ -42,7 +42,7 @@
             "name": "Informo minha senha",
             "result": {
               "status": "passed",
-              "duration": 233000000
+              "duration": 219000000
             }
           },
           {
@@ -52,7 +52,7 @@
             "name": "Aplico o botao de entrar",
             "result": {
               "status": "passed",
-              "duration": 731000000
+              "duration": 580000000
             }
           },
           {
@@ -62,7 +62,7 @@
             "name": "Que aplico conta",
             "result": {
               "status": "passed",
-              "duration": 102000000
+              "duration": 101000000
             }
           },
           {
@@ -72,7 +72,7 @@
             "name": "aplicar adicionar",
             "result": {
               "status": "passed",
-              "duration": 371000000
+              "duration": 241000000
             }
           },
           {
@@ -82,7 +82,7 @@
             "name": "informo o nome",
             "result": {
               "status": "passed",
-              "duration": 310000000
+              "duration": 340000000
             }
           },
           {
@@ -92,7 +92,7 @@
             "name": "Aplico o botao salvar",
             "result": {
               "status": "passed",
-              "duration": 629000000
+              "duration": 306000000
             }
           },
           {
@@ -102,7 +102,7 @@
             "name": "mostra alerta de conta salva",
             "result": {
               "status": "passed",
-              "duration": 22000000
+              "duration": 12000000
             }
           }
         ]
@@ -122,7 +122,7 @@
             "name": "Estou na tela de login",
             "result": {
               "status": "passed",
-              "duration": 566000000
+              "duration": 270000000
             }
           },
           {
@@ -132,7 +132,7 @@
             "name": "Informo meu email",
             "result": {
               "status": "passed",
-              "duration": 384000000
+              "duration": 406000000
             }
           },
           {
@@ -142,7 +142,7 @@
             "name": "Informo minha senha",
             "result": {
               "status": "passed",
-              "duration": 216000000
+              "duration": 255000000
             }
           },
           {
@@ -152,7 +152,7 @@
             "name": "Aplico o botao de entrar",
             "result": {
               "status": "passed",
-              "duration": 735000000
+              "duration": 555000000
             }
           },
           {
@@ -162,7 +162,7 @@
             "name": "Que aplico conta",
             "result": {
               "status": "passed",
-              "duration": 84000000
+              "duration": 95000000
             }
           },
           {
@@ -172,7 +172,7 @@
             "name": "aplicar listar",
             "result": {
               "status": "passed",
-              "duration": 374000000
+              "duration": 239000000
             }
           },
           {
@@ -182,7 +182,7 @@
             "name": "Lista informada",
             "result": {
               "status": "passed",
-              "duration": 6000000
+              "duration": 5000000
             }
           }
         ]
@@ -202,7 +202,7 @@
             "name": "Estou na tela de login",
             "result": {
               "status": "passed",
-              "duration": 658000000
+              "duration": 268000000
             }
           },
           {
@@ -212,7 +212,7 @@
             "name": "Informo meu email",
             "result": {
               "status": "passed",
-              "duration": 377000000
+              "duration": 393000000
             }
           },
           {
@@ -222,7 +222,7 @@
             "name": "Informo minha senha",
             "result": {
               "status": "passed",
-              "duration": 216000000
+              "duration": 244000000
             }
           },
           {
@@ -232,7 +232,7 @@
             "name": "Aplico o botao de entrar",
             "result": {
               "status": "passed",
-              "duration": 721000000
+              "duration": 806000000
             }
           },
           {
@@ -242,7 +242,7 @@
             "name": "Que aplico conta",
             "result": {
               "status": "passed",
-              "duration": 95000000
+              "duration": 94000000
             }
           },
           {
@@ -252,7 +252,7 @@
             "name": "aplicar listar",
             "result": {
               "status": "passed",
-              "duration": 419000000
+              "duration": 274000000
             }
           },
           {
@@ -262,7 +262,7 @@
             "name": "aplicar editar conta",
             "result": {
               "status": "passed",
-              "duration": 387000000
+              "duration": 268000000
             }
           },
           {
@@ -272,7 +272,7 @@
             "name": "Editando conta",
             "result": {
               "status": "passed",
-              "duration": 401000000
+              "duration": 454000000
             }
           },
           {
@@ -282,7 +282,7 @@
             "name": "Aplico o botao salvar",
             "result": {
               "status": "passed",
-              "duration": 368000000
+              "duration": 281000000
             }
           },
           {
@@ -292,7 +292,7 @@
             "name": "Conta alterada com sucesso",
             "result": {
               "status": "passed",
-              "duration": 5000000
+              "duration": 9000000
             }
           },
           {
@@ -302,7 +302,7 @@
             "name": "Lista informada",
             "result": {
               "status": "passed",
-              "duration": 4000000
+              "duration": 7000000
             }
           }
         ]

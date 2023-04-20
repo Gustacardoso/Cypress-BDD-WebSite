@@ -10,7 +10,21 @@
 //
 //
 // -- This is a parent command --
-// Cypress.Commands.add('login', (email, password) => { ... })
+Cypress.Commands.add('login', () => { 
+    cy.request({
+        method : 'POST',
+                url: "/logar",
+               
+                body:{
+                    "email": 'Chiplim@hotmail.com',
+                    "password": '123456'
+                }
+            }).then(res => {
+                cy.log(JSON.stringify(res.body))
+                expect(res.status).to.be.eq(201)
+                            });
+             })
+ 
 //
 //
 // -- This is a child command --

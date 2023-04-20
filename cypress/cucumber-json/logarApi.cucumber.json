@@ -1,0 +1,33 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "login Api sucesso",
+    "line": 1,
+    "id": "login-api-sucesso",
+    "tags": [],
+    "uri": "logarApi.feature",
+    "elements": [
+      {
+        "id": "login-api-sucesso;validar-login-via-api",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "validar login via api",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "login sucesso",
+            "result": {
+              "status": "failed",
+              "duration": 2309000000,
+              "error_message": "AssertionError\n    + expected - actual\n\n    -200\n    +201\n\n    at Context.eval (https://seubarriga.wcaquino.me/__cypress/tests?p=cypress\\support\\e2e.js:26:30)"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

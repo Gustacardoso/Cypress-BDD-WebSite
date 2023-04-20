@@ -10,19 +10,22 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "cypress": "^8.3.1",
     "cypress-cucumber-preprocessor": "^4.2.0",
     "faker": "^5.5.3",
     "prettier": "^2.3.2"
   },
   "cypress-cucumber-preprocessor": {
     "nonGlobalStepDefinitions": false,
-    "step_definitions": "cypress/integration/step_definitions/",
+    "step_definitions": "cypress/e2e/step_definitions/",
     "cucumberJson": {
       "generate": true,
       "outputFolder": "cypress/cucumber-json",
       "filePrefix": "",
       "fileSuffix": ".cucumber"
     }
+  },
+  "devDependencies": {
+    "cypress": "^10.3.1",
+    "cypress-cucumber-preprocessor": "^4.3.1"
   }
 }
