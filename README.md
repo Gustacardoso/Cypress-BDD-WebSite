@@ -1,24 +1,36 @@
-<h1 align="center" style="color:black">Automação web site seu barriga  </h1>
+# Cypress BDD Automation Framework
 
-## Sobre ✌
+## Overview
+Test automation framework built using Cypress and Cucumber following BDD practices.
 
-Test Web do site [seu barriga](https://seubarriga.wcaquino.me/salvarConta)
+## Features
+- BDD with Gherkin
+- Page Object Model
+- Data-driven tests
+- CI/CD with GitHub Actions
+- Reports generation
+- Screenshots and videos
+- Test evidence
 
+## Tech Stack
+- Cypress
+- Cucumber
+- JavaScript
+- GitHub Actions
+- Faker
 
-## Tecnologias utilizada 👌
+## Installation
 
-- [Cypress-cucumber-preprocessor](https://www.npmjs.com/package/cypress-cucumber-preprocessor)
-- [Prettier](https://prettier.io/docs/en/install.html)
-- [fake](https://imasters.com.br/desenvolvimento/mockando-dados-com-faker-js)
-
-## o que instalar 
-~~~~bash
 npm install
 
-cypress-cucumber-preprocessor
-npm install cypress cypress-cucumber-preprocessor
+## Execution
 
-prettier 
-npm install prettier 
+npm run test
 
-# cypress
+## CI Pipeline
+
+Link da pipeline
+
+## Test Architecture
+
+(desenho da arquitetura)
