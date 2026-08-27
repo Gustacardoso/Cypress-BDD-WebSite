@@ -33,4 +33,29 @@ Link da pipeline
 
 ## Test Architecture
 
-(desenho da arquitetura)
+O framework segue uma arquitetura em camadas, isolando o que o teste **descreve** (linguagem de negócio) do que ele **executa** (interação com a aplicação). Isso permite que qualquer pessoa do time (QA, dev, PO) leia o comportamento esperado sem conhecer Cypress, e que mudanças de UI sejam corrigidas em um único lugar (Page Object) sem tocar nos cenários.
+
+```mermaid
+flowchart TD
+    A["Feature<br/><small>cypress/e2e/specs/*.feature</small><br/>Gherkin — o comportamento esperado, em linguagem de negócio"]
+    B["Step Definitions<br/><small>cypress/e2e/step_definitions/**</small><br/>Traduz cada passo Gherkin em chamadas de código"]
+    C["Page Objects<br/><small>cypress/support/*Function.js</small><br/>Ações e validações da tela, usando locators centralizados"]
+    D["Commands<br/><small>cypress/support/commands.js + cy.*</small><br/>Comandos nativos/customizados do Cypress"]
+    E["Application<br/><small>navegador</small><br/>A aplicação sob teste"]
+
+    A --> B --> C --> D --> E
+```
+
+| Camada | Local | Responsabilidade |
+|---|---|---|
+| Feature | `cypress/e2e/specs/*.feature` | Cenários em Gherkin (Given/When/Then), a especificação do comportamento |
+| Step Definitions | `cypress/e2e/step_definitions/**` | Liga cada passo do Gherkin a uma função (ex: `loginSteps.js`) |
+| Page Objects | `cypress/support/*Function.js` | Encapsula ações da tela (ex: `loginFunction.js`, `cadastroFunction.js`), usando locators de `cypress/support/enum/enumLocators.js` |
+| Commands | `cypress/support/commands.js` | Comandos nativos (`cy.get`, `cy.visit`, `cy.type`) e customizados do Cypress |
+| Application | Navegador | A aplicação real sendo validada |
+
+**Por que essa separação importa:**
+- Um `.feature` não conhece seletores nem comandos Cypress — só descreve comportamento.
+- Um Step Definition não sabe *como* a tela funciona, só *o que* deve acontecer.
+- Um Page Object concentra os locators e ações de uma tela — se a UI mudar, o ajuste é feito em um único arquivo.
+- Commands isola o acoplamento com o framework Cypress, permitindo customizações reutilizáveis em todos os testes.
