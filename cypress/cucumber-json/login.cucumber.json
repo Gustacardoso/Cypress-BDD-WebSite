@@ -22,7 +22,7 @@
             "name": "Estou na tela de login",
             "result": {
               "status": "passed",
-              "duration": 377000000
+              "duration": 243000000
             }
           },
           {
@@ -32,7 +32,7 @@
             "name": "Informo meu email \"Chiplim@hotmail.com\"",
             "result": {
               "status": "passed",
-              "duration": 450000000
+              "duration": 366000000
             }
           },
           {
@@ -42,7 +42,7 @@
             "name": "Informo minha senha \"123456\"",
             "result": {
               "status": "passed",
-              "duration": 265000000
+              "duration": 219000000
             }
           },
           {
@@ -52,7 +52,7 @@
             "name": "Aplico o botao de entrar",
             "result": {
               "status": "passed",
-              "duration": 613000000
+              "duration": 455000000
             }
           },
           {
@@ -62,7 +62,7 @@
             "name": "Vejo a tela da home \"Bem vindo, chico\"",
             "result": {
               "status": "passed",
-              "duration": 32000000
+              "duration": 6000000
             }
           }
         ]

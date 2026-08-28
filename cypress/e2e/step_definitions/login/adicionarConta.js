@@ -2,41 +2,41 @@
 
 
 import { Given, When, And, Then } from "cypress-cucumber-preprocessor/steps";
-import * as cadastro from "../../../support/cadastroFunction"
-import * as login from "../../../support/loginFunction"
+import ContaPage from "../../../support/pages/ContaPage"
+import LoginPage from "../../../support/pages/LoginPage"
+
 Given('Que aplico conta', () =>{
-    cadastro.aplica_conta()
+    ContaPage.abrirMenuConta()
 })
 
 When("aplicar adicionar", () => {
-    cadastro.Adicionar_conta()
+    ContaPage.clicarAdicionarConta()
 })
 
 And("informo o nome", () =>{
-    cadastro.nome_random()
+    ContaPage.informarNome()
 })
 
 And("Aplico o botao salvar", ()=>{
-   cadastro.contain_salvar()
-   login.bt_entrada()
+   ContaPage.salvarConta()
 })
 Then("mostra alerta de conta salva {string}", (texto)=>{
-    login.alert_sucesso(texto)
+    LoginPage.seeSuccessAlert(texto)
 })
 
 When("aplicar listar", ()=>{
-    cadastro.menu_listar()
+    ContaPage.listarContas()
 })
 Then("Lista informada",()=>{
-    cadastro.tabelas_contas()
+    ContaPage.validarListaContas()
 })
 And("aplicar editar conta",()=>{
-    cadastro.aplicar_editar_conta()
+    ContaPage.clicarEditarConta()
 })
 
 And("Editando conta",()=>{
-   cadastro.editar_conta()
+   ContaPage.editarConta()
 })
 Then("Conta alterada com sucesso {string}",(texto)=>{
-    login.alert_editar(texto)
+    LoginPage.seeEditAlert(texto)
 })

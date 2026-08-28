@@ -22,107 +22,7 @@
             "name": "Estou na tela de login",
             "result": {
               "status": "passed",
-              "duration": 1320000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "line": 5,
-            "name": "Informo meu email \"Chiplim@hotmail.com\"",
-            "result": {
-              "status": "passed",
-              "duration": 469000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 6,
-            "name": "Informo minha senha \"123456\"",
-            "result": {
-              "status": "passed",
-              "duration": 283000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 7,
-            "name": "Aplico o botao de entrar",
-            "result": {
-              "status": "passed",
-              "duration": 626000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "line": 10,
-            "name": "Que aplico conta",
-            "result": {
-              "status": "passed",
-              "duration": 154000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "line": 11,
-            "name": "aplicar adicionar",
-            "result": {
-              "status": "passed",
-              "duration": 373000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 12,
-            "name": "informo o nome",
-            "result": {
-              "status": "passed",
-              "duration": 537000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 13,
-            "name": "Aplico o botao salvar",
-            "result": {
-              "status": "passed",
-              "duration": 380000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 14,
-            "name": "mostra alerta de conta salva \"Conta adicionada com sucesso!\"",
-            "result": {
-              "status": "passed",
-              "duration": 17000000
-            }
-          }
-        ]
-      },
-      {
-        "id": "cadastro-de-conta;listar-conta",
-        "keyword": "Scenario",
-        "line": 16,
-        "name": "Listar conta",
-        "tags": [],
-        "type": "scenario",
-        "steps": [
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "line": 4,
-            "name": "Estou na tela de login",
-            "result": {
-              "status": "passed",
-              "duration": 288000000
+              "duration": 284000000
             }
           },
           {
@@ -142,7 +42,7 @@
             "name": "Informo minha senha \"123456\"",
             "result": {
               "status": "passed",
-              "duration": 251000000
+              "duration": 225000000
             }
           },
           {
@@ -152,7 +52,107 @@
             "name": "Aplico o botao de entrar",
             "result": {
               "status": "passed",
-              "duration": 605000000
+              "duration": 478000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 10,
+            "name": "Que aplico conta",
+            "result": {
+              "status": "passed",
+              "duration": 85000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 11,
+            "name": "aplicar adicionar",
+            "result": {
+              "status": "passed",
+              "duration": 215000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "informo o nome",
+            "result": {
+              "status": "passed",
+              "duration": 320000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 13,
+            "name": "Aplico o botao salvar",
+            "result": {
+              "status": "passed",
+              "duration": 246000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "mostra alerta de conta salva \"Conta adicionada com sucesso!\"",
+            "result": {
+              "status": "passed",
+              "duration": 4000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "cadastro-de-conta;listar-conta",
+        "keyword": "Scenario",
+        "line": 16,
+        "name": "Listar conta",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "Estou na tela de login",
+            "result": {
+              "status": "passed",
+              "duration": 231000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "Informo meu email \"Chiplim@hotmail.com\"",
+            "result": {
+              "status": "passed",
+              "duration": 384000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "Informo minha senha \"123456\"",
+            "result": {
+              "status": "passed",
+              "duration": 217000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "Aplico o botao de entrar",
+            "result": {
+              "status": "passed",
+              "duration": 444000000
             }
           },
           {
@@ -162,7 +162,7 @@
             "name": "Que aplico conta",
             "result": {
               "status": "passed",
-              "duration": 106000000
+              "duration": 88000000
             }
           },
           {
@@ -172,7 +172,7 @@
             "name": "aplicar listar",
             "result": {
               "status": "passed",
-              "duration": 342000000
+              "duration": 225000000
             }
           },
           {
@@ -182,7 +182,7 @@
             "name": "Lista informada",
             "result": {
               "status": "passed",
-              "duration": 19000000
+              "duration": 2000000
             }
           }
         ]
@@ -202,7 +202,7 @@
             "name": "Estou na tela de login",
             "result": {
               "status": "passed",
-              "duration": 417000000
+              "duration": 241000000
             }
           },
           {
@@ -212,7 +212,7 @@
             "name": "Informo meu email \"Chiplim@hotmail.com\"",
             "result": {
               "status": "passed",
-              "duration": 459000000
+              "duration": 383000000
             }
           },
           {
@@ -222,7 +222,7 @@
             "name": "Informo minha senha \"123456\"",
             "result": {
               "status": "passed",
-              "duration": 294000000
+              "duration": 231000000
             }
           },
           {
@@ -232,7 +232,7 @@
             "name": "Aplico o botao de entrar",
             "result": {
               "status": "passed",
-              "duration": 650000000
+              "duration": 445000000
             }
           },
           {
@@ -242,7 +242,7 @@
             "name": "Que aplico conta",
             "result": {
               "status": "passed",
-              "duration": 107000000
+              "duration": 90000000
             }
           },
           {
@@ -252,7 +252,7 @@
             "name": "aplicar listar",
             "result": {
               "status": "passed",
-              "duration": 330000000
+              "duration": 225000000
             }
           },
           {
@@ -262,7 +262,7 @@
             "name": "aplicar editar conta",
             "result": {
               "status": "passed",
-              "duration": 308000000
+              "duration": 218000000
             }
           },
           {
@@ -272,7 +272,7 @@
             "name": "Editando conta",
             "result": {
               "status": "passed",
-              "duration": 605000000
+              "duration": 574000000
             }
           },
           {
@@ -282,7 +282,7 @@
             "name": "Aplico o botao salvar",
             "result": {
               "status": "passed",
-              "duration": 398000000
+              "duration": 277000000
             }
           },
           {
@@ -291,8 +291,8 @@
             "line": 28,
             "name": "Conta alterada com sucesso \"Conta alterada com sucesso!\"",
             "result": {
-              "status": "failed",
-              "error_message": "AssertionError: Timed out retrying after 5000ms: expected '<div.alert.alert-danger>' to contain 'Conta alterada com sucesso!'\n    at Object.alert_editar (https://seubarriga.wcaquino.me/__cypress/tests?p=cypress\\e2e\\specs\\cadastroConta.feature:236:48)\n    at Context.eval (https://seubarriga.wcaquino.me/__cypress/tests?p=cypress\\e2e\\specs\\cadastroConta.feature:80:9)\n    at Context.resolveAndRunStepDefinition (https://seubarriga.wcaquino.me/__cypress/tests?p=cypress\\e2e\\specs\\cadastroConta.feature:10677:29)\n    at Context.eval (https://seubarriga.wcaquino.me/__cypress/tests?p=cypress\\e2e\\specs\\cadastroConta.feature:9998:35)"
+              "status": "passed",
+              "duration": 4000000
             }
           },
           {
@@ -301,7 +301,8 @@
             "line": 29,
             "name": "Lista informada",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 6000000
             }
           }
         ]
