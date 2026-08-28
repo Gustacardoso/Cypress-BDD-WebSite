@@ -19,3 +19,12 @@ And('Aplico o botao de entrar', ()=>{
 Then('Vejo a tela da home {string}', (texto)=>{
     LoginPage.seeSuccessAlert(texto)
 })
+Then('Vejo mensagem de erro {string}', (texto)=>{
+    LoginPage.seeErrorAlert(texto)
+})
+And('Aplico o logout', ()=>{
+    LoginPage.logout()
+})
+Then('Vejo a tela de login novamente', ()=>{
+    LoginPage.seeLoginPage()
+})

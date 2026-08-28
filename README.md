@@ -59,3 +59,14 @@ flowchart TD
 - Um Step Definition não sabe *como* a tela funciona, só *o que* deve acontecer — ele chama um método do Page Object (ex: `LoginPage.login(usuario, senha)`), nunca `cy.get(...)` diretamente.
 - Um Page Object concentra os locators e ações de uma tela — se a UI mudar, o ajuste é feito em um único arquivo.
 - Commands isola o acoplamento com o framework Cypress, permitindo customizações reutilizáveis em todos os testes.
+
+## Cobertura de Cenários
+
+| Área | Feature | Page Object |
+|---|---|---|
+| Login | `login.feature` — sucesso, senha inválida, email/senha vazios, logout | `LoginPage.js` |
+| Conta | `cadastroConta.feature` — adicionar, listar, editar, excluir, nome vazio | `ContaPage.js` |
+| Movimentação | `movimentacao.feature` — lançar receita paga, despesa pendente, valor obrigatório | `MovimentacaoPage.js` |
+| Extrato | `extrato.feature` — ver lançamento no mês atual, mês sem lançamentos | `ExtratoPage.js` |
+
+Aplicação sob teste: [seubarriga.wcaquino.me](https://seubarriga.wcaquino.me) (app pública de prática de automação de testes).

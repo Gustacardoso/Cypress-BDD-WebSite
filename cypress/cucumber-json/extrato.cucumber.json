@@ -1,17 +1,17 @@
 [
   {
     "keyword": "Feature",
-    "name": "login",
+    "name": "Extrato / Resumo Mensal",
     "line": 1,
-    "id": "login",
+    "id": "extrato-/-resumo-mensal",
     "tags": [],
-    "uri": "login.feature",
+    "uri": "extrato.feature",
     "elements": [
       {
-        "id": "login;validar-login",
+        "id": "extrato-/-resumo-mensal;ver-lançamento-do-mês-atual-no-extrato",
         "keyword": "Scenario",
-        "line": 3,
-        "name": "validar login",
+        "line": 9,
+        "name": "Ver lançamento do mês atual no extrato",
         "tags": [],
         "type": "scenario",
         "steps": [
@@ -22,7 +22,7 @@
             "name": "Estou na tela de login",
             "result": {
               "status": "passed",
-              "duration": 787000000
+              "duration": 606000000
             }
           },
           {
@@ -32,7 +32,7 @@
             "name": "Informo meu email \"Chiplim@hotmail.com\"",
             "result": {
               "status": "passed",
-              "duration": 560000000
+              "duration": 555000000
             }
           },
           {
@@ -42,7 +42,7 @@
             "name": "Informo minha senha \"123456\"",
             "result": {
               "status": "passed",
-              "duration": 265000000
+              "duration": 283000000
             }
           },
           {
@@ -52,234 +52,84 @@
             "name": "Aplico o botao de entrar",
             "result": {
               "status": "passed",
-              "duration": 493000000
+              "duration": 578000000
             }
           },
           {
             "arguments": [],
-            "keyword": "Then ",
-            "line": 8,
-            "name": "Vejo a tela da home \"Bem vindo, chico\"",
-            "result": {
-              "status": "passed",
-              "duration": 14000000
-            }
-          }
-        ]
-      },
-      {
-        "id": "login;login-com-senha-inválida",
-        "keyword": "Scenario",
-        "line": 10,
-        "name": "login com senha inválida",
-        "tags": [],
-        "type": "scenario",
-        "steps": [
-          {
-            "arguments": [],
             "keyword": "Given ",
-            "line": 11,
-            "name": "Estou na tela de login",
+            "line": 10,
+            "name": "Que aplico movimentação",
             "result": {
               "status": "passed",
-              "duration": 260000000
+              "duration": 298000000
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
-            "line": 12,
-            "name": "Informo meu email \"Chiplim@hotmail.com\"",
+            "line": 11,
+            "name": "informo o tipo \"REC\"",
             "result": {
               "status": "passed",
-              "duration": 462000000
+              "duration": 173000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "informo a data da movimentação \"28/08/2026\"",
+            "result": {
+              "status": "passed",
+              "duration": 332000000
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
             "line": 13,
-            "name": "Informo minha senha \"senhaErrada\"",
+            "name": "informo a data do pagamento \"28/08/2026\"",
             "result": {
               "status": "passed",
-              "duration": 339000000
+              "duration": 331000000
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
             "line": 14,
-            "name": "Aplico o botao de entrar",
+            "name": "informo a descricao \"Lançamento do extrato\"",
             "result": {
               "status": "passed",
-              "duration": 480000000
+              "duration": 524000000
             }
           },
           {
             "arguments": [],
-            "keyword": "Then ",
+            "keyword": "And ",
             "line": 15,
-            "name": "Vejo mensagem de erro \"Problemas com o login do usuário\"",
+            "name": "informo o interessado \"QA\"",
             "result": {
               "status": "passed",
-              "duration": 9000000
-            }
-          }
-        ]
-      },
-      {
-        "id": "login;login-sem-informar-email",
-        "keyword": "Scenario",
-        "line": 17,
-        "name": "login sem informar email",
-        "tags": [],
-        "type": "scenario",
-        "steps": [
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "line": 18,
-            "name": "Estou na tela de login",
-            "result": {
-              "status": "passed",
-              "duration": 273000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "line": 19,
-            "name": "Informo minha senha \"123456\"",
-            "result": {
-              "status": "passed",
-              "duration": 237000000
+              "duration": 211000000
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "line": 20,
-            "name": "Aplico o botao de entrar",
+            "line": 16,
+            "name": "informo o valor \"250\"",
             "result": {
               "status": "passed",
-              "duration": 263000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 21,
-            "name": "Vejo mensagem de erro \"Email é um campo obrigatório\"",
-            "result": {
-              "status": "passed",
-              "duration": 9000000
-            }
-          }
-        ]
-      },
-      {
-        "id": "login;login-sem-informar-senha",
-        "keyword": "Scenario",
-        "line": 23,
-        "name": "login sem informar senha",
-        "tags": [],
-        "type": "scenario",
-        "steps": [
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "line": 24,
-            "name": "Estou na tela de login",
-            "result": {
-              "status": "passed",
-              "duration": 250000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "line": 25,
-            "name": "Informo meu email \"Chiplim@hotmail.com\"",
-            "result": {
-              "status": "passed",
-              "duration": 494000000
+              "duration": 233000000
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "line": 26,
-            "name": "Aplico o botao de entrar",
-            "result": {
-              "status": "passed",
-              "duration": 264000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 27,
-            "name": "Vejo mensagem de erro \"Senha é um campo obrigatório\"",
-            "result": {
-              "status": "passed",
-              "duration": 9000000
-            }
-          }
-        ]
-      },
-      {
-        "id": "login;logout",
-        "keyword": "Scenario",
-        "line": 29,
-        "name": "logout",
-        "tags": [],
-        "type": "scenario",
-        "steps": [
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "line": 30,
-            "name": "Estou na tela de login",
-            "result": {
-              "status": "passed",
-              "duration": 299000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "line": 31,
-            "name": "Informo meu email \"Chiplim@hotmail.com\"",
-            "result": {
-              "status": "passed",
-              "duration": 468000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 32,
-            "name": "Informo minha senha \"123456\"",
-            "result": {
-              "status": "passed",
-              "duration": 243000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 33,
-            "name": "Aplico o botao de entrar",
-            "result": {
-              "status": "passed",
-              "duration": 483000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 34,
-            "name": "Aplico o logout",
+            "line": 17,
+            "name": "seleciono a primeira conta",
             "result": {
               "status": "passed",
               "duration": 236000000
@@ -287,12 +137,172 @@
           },
           {
             "arguments": [],
-            "keyword": "Then ",
-            "line": 35,
-            "name": "Vejo a tela de login novamente",
+            "keyword": "And ",
+            "line": 18,
+            "name": "marco como pago",
             "result": {
-              "status": "failed",
-              "error_message": "AssertionError: Timed out retrying after 5000ms: expected 'https://seubarriga.wcaquino.me/logout' to include '/login'\n    at LoginPage.seeLoginPage (https://seubarriga.wcaquino.me/__cypress/tests?p=cypress\\e2e\\specs\\login.feature:427:16)\n    at Context.eval (https://seubarriga.wcaquino.me/__cypress/tests?p=cypress\\e2e\\specs\\login.feature:140:25)\n    at Context.resolveAndRunStepDefinition (https://seubarriga.wcaquino.me/__cypress/tests?p=cypress\\e2e\\specs\\login.feature:10942:29)\n    at Context.eval (https://seubarriga.wcaquino.me/__cypress/tests?p=cypress\\e2e\\specs\\login.feature:10263:35)"
+              "status": "passed",
+              "duration": 95000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 19,
+            "name": "Aplico o botao salvar da movimentação",
+            "result": {
+              "status": "passed",
+              "duration": 291000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 20,
+            "name": "Que aplico extrato",
+            "result": {
+              "status": "passed",
+              "duration": 357000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 21,
+            "name": "seleciono o mes \"08\"",
+            "result": {
+              "status": "passed",
+              "duration": 169000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 22,
+            "name": "seleciono o ano \"2026\"",
+            "result": {
+              "status": "passed",
+              "duration": 166000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 23,
+            "name": "Aplico o botao buscar",
+            "result": {
+              "status": "passed",
+              "duration": 267000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 24,
+            "name": "vejo o lancamento \"Lançamento do extrato\" no extrato",
+            "result": {
+              "status": "passed",
+              "duration": 15000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "extrato-/-resumo-mensal;trocar-para-um-mês-sem-lançamentos",
+        "keyword": "Scenario",
+        "line": 26,
+        "name": "Trocar para um mês sem lançamentos",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "Estou na tela de login",
+            "result": {
+              "status": "passed",
+              "duration": 334000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "Informo meu email \"Chiplim@hotmail.com\"",
+            "result": {
+              "status": "passed",
+              "duration": 450000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "Informo minha senha \"123456\"",
+            "result": {
+              "status": "passed",
+              "duration": 270000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "Aplico o botao de entrar",
+            "result": {
+              "status": "passed",
+              "duration": 651000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 27,
+            "name": "Que aplico extrato",
+            "result": {
+              "status": "passed",
+              "duration": 290000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 28,
+            "name": "seleciono o mes \"01\"",
+            "result": {
+              "status": "passed",
+              "duration": 172000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 29,
+            "name": "seleciono o ano \"2010\"",
+            "result": {
+              "status": "passed",
+              "duration": 166000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 30,
+            "name": "Aplico o botao buscar",
+            "result": {
+              "status": "passed",
+              "duration": 279000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 31,
+            "name": "a tabela de extrato esta vazia",
+            "result": {
+              "status": "passed",
+              "duration": 10000000
             }
           }
         ]

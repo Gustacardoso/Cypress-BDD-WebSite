@@ -24,6 +24,16 @@ class LoginPage {
     seeEditAlert(texto) {
         cy.get(loc.LOGIN.alert).should('contain', texto)
     }
+    seeErrorAlert(texto) {
+        cy.get(loc.LOGIN.alert).should('contain', texto)
+    }
+    logout() {
+        cy.get(loc.LOGIN.logout).click()
+    }
+    seeLoginPage() {
+        cy.url().should('include', '/login')
+        cy.get(loc.LOGIN.email).should('be.visible')
+    }
 }
 
 export default new LoginPage()

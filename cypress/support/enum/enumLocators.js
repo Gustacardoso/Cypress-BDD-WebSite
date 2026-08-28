@@ -5,7 +5,8 @@ const locators = {
        email:"#email",
        password : "#senha",
        btn_login: ".btn",
-       alert: ".alert"
+       alert: ".alert",
+       logout: 'a[href="/logout"]'
    },
    CONTA:{
       Aplica_conta:"[data-toggle=dropdown",
@@ -14,6 +15,25 @@ const locators = {
       menu: ".dropdown-menu",
       editar_conta:'[href="/editarConta?id=1714724"] > .glyphicon',
       tabela_conta:"#tabelaContas"
+   },
+   MOVIMENTACAO:{
+      menu: '[href="/movimentacao"]',
+      tipo: '#tipo',
+      data_transacao: '#data_transacao',
+      data_pagamento: '#data_pagamento',
+      descricao: '#descricao',
+      interessado: '#interessado',
+      valor: '#valor',
+      conta: '#conta',
+      status_pago: '#status_pago',
+      status_pendente: '#status_pendente'
+   },
+   EXTRATO:{
+      menu: '[href="/extrato"]',
+      mes: '#mes',
+      ano: '#ano',
+      buscar: 'input[value="Buscar"]',
+      tabela: '#tabelaExtrato'
    },
    Texto:{
       adiciona:'Adiciona',

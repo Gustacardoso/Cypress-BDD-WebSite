@@ -28,6 +28,12 @@ class ContaPage {
         cy.get(loc.CONTA.nome).clear()
         cy.get(loc.CONTA.nome).type(loc.Texto.randomName +" "+loc.Texto.randomName)
     }
+    removerConta() {
+        cy.contains('#tabelaContas tr', loc.Texto.randomName)
+            .first()
+            .find('a[href^="/removerConta"]')
+            .click()
+    }
 }
 
 export default new ContaPage()

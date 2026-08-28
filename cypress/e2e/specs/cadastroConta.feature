@@ -27,3 +27,19 @@ Scenario: Editar conta
     And Aplico o botao salvar
     Then Conta alterada com sucesso "Conta alterada com sucesso!"
     Then Lista informada
+
+Scenario: Excluir conta
+    Given Que aplico conta
+    When  aplicar adicionar
+    And informo o nome
+    And Aplico o botao salvar
+    Given Que aplico conta
+    When aplicar listar
+    And aplicar excluir conta
+    Then mostra alerta de conta removida "Conta removida com sucesso!"
+
+Scenario: Adicionar conta sem informar o nome
+    Given Que aplico conta
+    When  aplicar adicionar
+    And Aplico o botao salvar
+    Then mostra alerta de conta salva "Conta adicionada com sucesso!"

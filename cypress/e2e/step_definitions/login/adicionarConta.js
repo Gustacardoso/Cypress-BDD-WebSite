@@ -40,3 +40,10 @@ And("Editando conta",()=>{
 Then("Conta alterada com sucesso {string}",(texto)=>{
     LoginPage.seeEditAlert(texto)
 })
+
+And("aplicar excluir conta",()=>{
+    ContaPage.removerConta()
+})
+Then("mostra alerta de conta removida {string}",(texto)=>{
+    LoginPage.seeSuccessAlert(texto)
+})
