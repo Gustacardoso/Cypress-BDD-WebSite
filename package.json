@@ -6,7 +6,8 @@
   "scripts": {
     "cy:open": "cypress open",
     "cy:tests": "cypress run",
-    "test": "cypress run"
+    "test": "cypress run",
+    "portfolio:pdf": "node scripts/generate-github-portfolio-pdf.js"
   },
   "author": "",
   "license": "ISC",
@@ -27,6 +28,8 @@
   },
   "devDependencies": {
     "cypress": "^10.3.1",
-    "cypress-cucumber-preprocessor": "^4.3.1"
+    "cypress-cucumber-preprocessor": "^4.3.1",
+    "pdf-lib": "^1.17.1",
+    "puppeteer": "^25.9.0"
   }
 }
